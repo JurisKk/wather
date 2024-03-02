@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head>    
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav/fav.ico" type="image">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>
+      <!-- Блок title -->
+      Project-2. Home.
+      <!-- Конец блока title -->  
+    </title>     
+  </head>
+  <body>
+    <!-- Вынести в header.html -->
+    <header>
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+          <div 
+            class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">                      
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <!-- Добавлен класс active -->              
+                <a class="nav-link active" href="index.html">
+                  Home
+                </a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">
+                  About
+                </a> 
+              <li class="nav-item">
+                <a class="nav-link" href="images.html">
+                  Images
+                </a> 
+              </li>
+            </ul>
+          </div> 
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" height="50" class="d-inline-block align-top" alt="">            
+          </a>         
+        </div>
+      </nav>
+    </header>
+    <!-- Конец header.html -->
+    <main class="pt-5 my-5">
+      <div class="image-container">
+        <h1 style="display: grid;place-items: center;color: white;">Home page</h1>
+      </div>
+      <div>
+        <p>
+          <h4 class="pb-2 mb-0">Emphasized text</h4>
+          <h4>
+            <em>This is the first paragraph. Emphasized text.</em>
+              <a href="https://example.com">Link to external web page</a>
+          </h4>
+        </p>
+        <p>
+          <h5 class="pb-2 mb-0">Strong text</h5>
+          <h5>
+            <strong>This is the second paragraph. Strong text.</strong>
+              <a href="https://example.com">Link to external web page</a>
+          </h5>
+        </p>
+        <p>
+          <h6 class="pb-2 mb-0">Underlined text</h6>
+          <h6>
+            <u>This is the third paragraph. Underlined text.</u>
+              <a href="https://example.com">Link to external web page</a>
+          </h6>
+        </p>
+      </div>
+    </main>
+    <!-- Вынести в footer.html -->
+    <footer class="border-top text-center py-3" style="height: 5vh">
+      <p>© 2024 «Project-2»</p>
+    </footer>
+    <!-- Конец footer.html -->    
+  </body>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>

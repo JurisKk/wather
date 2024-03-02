@@ -1,0 +1,29 @@
+.image-container {
+    background-image: url("../img/header.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    gap: 0;
+    justify-items: stretch;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    max-height: 35%;
+    width: auto;
+    grid-template-areas: 
+            "a b"
+            "c d";
+}
+
+.grid-item {
+    border: 2px solid #000;
+}
+
+.cover {
+    object-fit: cover;
+}
